@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1534.68 1043.4971"
+   width="1534.6801"
+   height="1043.4971"
+   version="1.1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   style="--scada-line:#cfd8dc;--scada-fill:#cfd8dc;--scada-bg:transparent">
+  <defs id="defs216">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:var(--scada-line,#cfd8dc);stroke-width:0.5"
+         id="path1" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path2" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path3" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path4" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="*Paper_Space0" />
+    <symbol
+       id="DEVICE_BOILER">
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 504.567,619.843 H 406.299"
+         id="path5" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 474.331,597.165 H 436.535"
+         id="path6" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 478.11,566.929 H 432.756"
+         id="path7" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 474.331,597.165 H 436.535"
+         id="path8" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 474.331,593.386 H 436.535"
+         id="path9" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 478.11,600.945 H 432.756"
+         id="path10" />
+      <path
+         d="m 504.56693,619.84252 a 7.559055,7.559055 0 0 0 7.55905,-7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path11" />
+      <path
+         d="m 398.74016,612.28346 a 7.559055,7.559055 0 0 0 7.55905,7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path12" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 398.74,612.283 V 438.425"
+         id="path13" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 512.126,612.283 V 438.425"
+         id="path14" />
+      <path
+         d="m 406.29921,430.86614 a 7.559055,7.559055 0 0 0 -7.55905,7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path15" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 406.299,430.866 h 98.268"
+         id="path16" />
+      <path
+         d="m 512.12598,438.4252 a 7.559055,7.559055 0 0 0 -7.55905,-7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path17" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 432.756,600.945 V 566.929"
+         id="path18" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 436.535,597.165 v -3.779"
+         id="path19" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 478.11,600.945 V 566.929"
+         id="path20" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 474.331,597.165 v -3.779"
+         id="path21" />
+      <path
+         d="m 462.99213,578.26772 a 7.559055,7.559055 0 0 0 -15.11811,0 7.559055,7.559055 0 0 0 15.11811,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path22" />
+    </symbol>
+    <symbol
+       id="DEVICE_BUFFER">
+      <path
+         d="m 791.81102,708.66142 h 132.28347 a 13.228346,13.228346 0 0 1 13.22835,13.22834 v 291.02364 a 13.228346,13.228346 0 0 1 -13.22835,13.2283 H 791.81102 a 13.228346,13.228346 0 0 1 -13.22834,-13.2283 V 721.88976 a 13.228346,13.228346 0 0 1 13.22834,-13.22834 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path23" />
+    </symbol>
+    <symbol
+       id="DEVICE_DHW_TANK">
+      <path
+         d="m 542.36221,772.15748 h 100.53543 a 13.228346,13.228346 0 0 1 13.22834,13.22835 v 227.52757 a 13.228346,13.228346 0 0 1 -13.22834,13.2283 H 542.36221 a 13.228346,13.228346 0 0 1 -13.22835,-13.2283 V 785.38583 a 13.228346,13.228346 0 0 1 13.22835,-13.22835 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path24" />
+    </symbol>
+    <symbol
+       id="DEVICE_FANCOIL">
+      <path
+         d="m 789.48608,304.59999 h 147.40157 a 11.338583,11.338583 0 0 1 11.33858,11.33858 v 42.19959 a 11.338583,11.338583 0 0 1 -11.33858,11.33858 H 789.48608 a 11.338583,11.338583 0 0 1 -11.33859,-11.33858 v -42.19959 a 11.338583,11.338583 0 0 1 11.33859,-11.33858 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path25" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 790.536,312.159 H 935.838"
+         id="path26" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 802.186,319.718 H 924.187"
+         id="path27" />
+      <path
+         d="m 789.48608,304.59999 a 13.057476,13.057476 0 0 0 13.087,15.11811"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path28" />
+      <path
+         d="m 923.80065,319.7181 a 13.057476,13.057476 0 0 0 13.087,-15.11811"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path29" />
+      <path
+         d="m 943.50864,312.15904 a 1.889765,1.889765 0 0 0 -3.77953,0 1.889765,1.889765 0 0 0 3.77953,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path30" />
+      <path
+         d="m 804.75091,294.87028 c 4.72233,-3.40071 9.44466,-6.80142 9.38805,-10.73169 -0.0888,-6.16915 -11.95206,-13.64302 -11.02631,-19.47623 0.47226,-2.97578 4.27282,-5.52458 8.07337,-8.07337"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path31" />
+      <path
+         d="m 834.98713,294.87028 c 4.72233,-3.40071 9.44466,-6.80142 9.38806,-10.73169 -0.0888,-6.16915 -11.95207,-13.64302 -11.02632,-19.47623 0.47226,-2.97578 4.27282,-5.52458 8.07337,-8.07337"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path32" />
+      <path
+         d="m 865.22335,294.87028 c 4.72233,-3.40071 9.44466,-6.80142 9.38806,-10.73169 -0.0888,-6.16915 -11.95207,-13.64302 -11.02632,-19.47623 0.47226,-2.97578 4.27282,-5.52458 8.07337,-8.07337"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path33" />
+      <path
+         d="m 895.45957,294.87028 c 4.72233,-3.40071 9.44466,-6.80142 9.38806,-10.73169 -0.0888,-6.16915 -11.95207,-13.64302 -11.02632,-19.47623 0.47226,-2.97578 4.27282,-5.52458 8.07337,-8.07337"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path34" />
+      <path
+         d="m 925.69579,294.87028 c 4.72233,-3.40071 9.44466,-6.80142 9.38806,-10.73169 -0.0888,-6.16915 -11.95207,-13.64302 -11.02632,-19.47623 0.47226,-2.97578 4.27282,-5.52458 8.07337,-8.07337"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path35" />
+    </symbol>
+    <symbol
+       id="DEVICE_HP">
+      <path
+         d="M 275.90551,1007.2441 H 7.559055 A 7.559055,7.559055 0 0 1 0,999.68504 V 825.82677 a 7.559055,7.559055 0 0 1 7.559055,-7.55905 H 275.90551 a 7.559055,7.559055 0 0 1 7.55906,7.55905 v 173.85827 a 7.559055,7.559055 0 0 1 -7.55906,7.55906 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path36" />
+      <path
+         d="m 170.07874,912.75591 a 75.590551,75.590551 0 0 0 -151.181102,0 75.590551,75.590551 0 0 0 151.181102,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path37" />
+      <path
+         d="m 98.267717,912.75591 a 3.779528,3.779528 0 0 0 -7.559056,0 3.779528,3.779528 0 0 0 7.559056,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path38" />
+      <path
+         d="m 102.04724,912.75591 a 7.559055,7.559055 0 0 0 -15.118106,0 7.559055,7.559055 0 0 0 15.118106,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path39" />
+      <path
+         d="m 205.98425,850.3937 a 3.77953,3.77953 0 0 0 0,7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path40" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 205.984,850.394 H 243.78"
+         id="path41" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 205.984,857.953 H 243.78"
+         id="path42" />
+      <path
+         d="m 243.77953,857.95276 a 3.77953,3.77953 0 0 0 0,-7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path43" />
+      <path
+         d="m 205.98425,865.51181 a 3.77953,3.77953 0 0 0 0,7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path44" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 205.984,865.512 H 243.78"
+         id="path45" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 205.984,873.071 H 243.78"
+         id="path46" />
+      <path
+         d="m 243.77953,873.07087 a 3.77953,3.77953 0 0 0 0,-7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path47" />
+      <path
+         d="m 205.98425,880.62992 a 3.77953,3.77953 0 0 0 0,7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path48" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 205.984,880.63 H 243.78"
+         id="path49" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 205.984,888.189 H 243.78"
+         id="path50" />
+      <path
+         d="m 243.77953,888.18898 a 3.77953,3.77953 0 0 0 0,-7.55906"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path51" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 26.4567,912.756 v 0"
+         id="path52" />
+      <path
+         d="m 55.197539,895.46464 a 18.897638,18.897638 0 1 0 2.044199,34.97166"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path53" />
+      <path
+         d="m 98.901227,953.74883 a 18.897638,18.897638 0 1 0 30.875503,-16.5499"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path54" />
+      <path
+         d="M 127.78258,888.43764 A 18.897638,18.897638 0 1 0 98.012203,869.97362"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path55" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 53.9888,931.629 95.7891,916.304"
+         id="path56" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 90.923,911.187 55.1975,895.465"
+         id="path57" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 90.7634,912.115 7.2488,-42.141"
+         id="path58" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 97.5403,910.527 127.783,888.438"
+         id="path59" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 96.9055,909.85 32.8715,27.349"
+         id="path60" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 94.8927,916.514 4.0085,37.235"
+         id="path61" />
+    </symbol>
+    <symbol
+       id="DEVICE_HRV">
+      <path
+         d="m 1446.7659,653.37242 h -268.3464 a 7.559055,7.559055 0 0 1 -7.5591,-7.55906 V 471.95509 a 7.559055,7.559055 0 0 1 7.5591,-7.55905 h 268.3464 a 7.559055,7.559055 0 0 1 7.5591,7.55905 v 173.85827 a 7.559055,7.559055 0 0 1 -7.5591,7.55906 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path62" />
+      <path
+         d="m 1244.7058,557.07636 66.8132,-66.81324 68.9606,68.96063 -66.8132,66.81324 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path63" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1454.32,471.955 h 7.56"
+         id="path64" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1461.88,471.955 v 68.032"
+         id="path65" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1461.88,539.987 h -7.56"
+         id="path66" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1454.32,577.782 h 7.56"
+         id="path67" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1461.88,577.782 v 68.031"
+         id="path68" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1461.88,645.813 h -7.56"
+         id="path69" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1170.86,471.955 h -7.56"
+         id="path70" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1163.3,471.955 v 68.032"
+         id="path71" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1163.3,539.987 h 7.56"
+         id="path72" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1170.86,577.782 h -7.56"
+         id="path73" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1163.3,577.782 v 68.031"
+         id="path74" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1163.3,645.813 h 7.56"
+         id="path75" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1513.69,600.459 v 7.559"
+         id="path76" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1513.69,608.018 h -37.8"
+         id="path77" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1475.89,608.018 v 7.559"
+         id="path78" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1475.89,615.577 h 37.8"
+         id="path79" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1513.69,615.577 v 7.559"
+         id="path80" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1513.69,623.136 20.49,-11.832"
+         id="path81" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1534.18,611.304 -20.49,-10.845"
+         id="path82" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1112.43,599.403 v 7.559"
+         id="path83" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1112.43,606.962 h 37.79"
+         id="path84" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1150.22,606.962 v 7.559"
+         id="path85" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1150.22,614.521 h -37.79"
+         id="path86" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1112.43,614.521 v 7.559"
+         id="path87" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1112.43,622.08 -20.5,-11.832"
+         id="path88" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1091.93,610.248 20.5,-10.845"
+         id="path89" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1129.73,495.126 v 7.559"
+         id="path90" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1129.73,502.685 h -37.8"
+         id="path91" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1091.93,502.685 v 7.559"
+         id="path92" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1091.93,510.244 h 37.8"
+         id="path93" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1129.73,510.244 v 7.559"
+         id="path94" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1129.73,517.803 20.49,-11.832"
+         id="path95" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1150.22,505.971 -20.49,-10.845"
+         id="path96" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1496.39,496.521 v 7.559"
+         id="path97" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1496.39,504.08 h 37.79"
+         id="path98" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1534.18,504.08 v 7.559"
+         id="path99" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1534.18,511.639 h -37.79"
+         id="path100" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1496.39,511.639 v 7.559"
+         id="path101" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1496.39,519.198 -20.5,-11.832"
+         id="path102" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1475.89,507.366 20.5,-10.845"
+         id="path103" />
+    </symbol>
+    <symbol
+       id="STATIC_BG">
+      <path
+         d="m 334.48819,1122.5197 h 9.44882 V 211.65354 h -9.44882 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path104" />
+      <path
+         d="m 343.93701,1122.5197 h -9.44882 V 211.65354 h 9.44882"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path105" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 343.937,211.654 V 1122.52"
+         id="path106" />
+      <path
+         d="M 1254.8032,400.62992 V 391.1811 H 343.93701 v 9.44882 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path107" />
+      <path
+         d="m 1254.8032,391.1811 v 9.44882 H 343.93701 v -9.44882"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path108" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 343.937,391.181 H 1254.8"
+         id="path109" />
+      <path
+         d="m 307.40241,369.04878 a 7.559055,7.559055 0 1 0 7.55905,0"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path110" />
+      <path
+         d="m 312.31579,370.81435 v -16.40394 h -2.26771 v 16.40394 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path111" />
+      <path
+         d="m 310.04808,370.81435 a 4.913386,4.913386 0 1 0 2.26771,0"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path112" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 307.402,369.049 V 346.372"
+         id="path113" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 310.048,370.814 V 354.41"
+         id="path114" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 314.961,369.049 V 346.372"
+         id="path115" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 312.316,370.814 V 354.41"
+         id="path116" />
+      <path
+         d="m 314.96146,346.37162 a 3.779528,3.779528 0 0 0 -7.55905,0"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path117" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 310.048,354.41 h 2.268"
+         id="path118" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 463.259,387.752 H 591.762"
+         id="path119" />
+      <path
+         d="m 414.12468,338.6184 a 49.133858,49.133858 0 0 0 49.13386,49.13386"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path120" />
+      <path
+         d="M 591.76248,387.75226 A 49.133858,49.133858 0 0 0 640.89633,338.6184"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path121" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 414.125,338.618 V 323.5"
+         id="path122" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 414.125,323.5 H 640.896"
+         id="path123" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 414.125,304.603 H 630.692"
+         id="path124" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 632.203,304.603 h 2.268"
+         id="path125" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 635.983,304.603 h 4.913"
+         id="path126" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 640.896,323.5 v 15.118"
+         id="path127" />
+      <path
+         d="m 414.12468,304.60266 a 9.448819,9.448819 0 0 0 0,18.89763"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path128" />
+      <path
+         d="m 640.89633,323.50029 a 9.448819,9.448819 0 0 0 0,-18.89763"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path129" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 633.337,304.603 V 290.728"
+         id="path130" />
+      <path
+         d="M 633.33728,290.72808 A 7.498279,7.498279 0 0 0 625.839,283.2298"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path131" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 625.839,283.23 H 618.28"
+         id="path132" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 618.28,283.23 v 3.779"
+         id="path133" />
+      <path
+         d="m 635.98295,304.60266 a 0.755906,0.755906 0 0 0 -1.51181,0 0.755906,0.755906 0 0 0 1.51181,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path134" />
+      <path
+         d="m 635.98295,304.60266 a 0.755906,0.755906 0 0 0 -1.51181,0 0.755906,0.755906 0 0 0 1.51181,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path135" />
+      <path
+         d="m 632.20342,304.60266 a 0.755906,0.755906 0 0 0 -1.51181,0 0.755906,0.755906 0 0 0 1.51181,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path136" />
+    </symbol>
+    <symbol
+       id="STATUS_BOILER_ACTIVE">
+      <path
+         d="m 501.94831,445.37588 h -7.55905 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path137" />
+      <path
+         d="m 501.94831,445.37588 a 3.779528,3.779528 0 0 0 -7.55905,0 3.779528,3.779528 0 0 0 7.55905,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path138" />
+    </symbol>
+    <symbol
+       id="STATUS_HP_ACTIVE">
+      <path
+         d="m 272.62532,832.33038 h -7.55906 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path139" />
+      <path
+         d="m 272.62532,832.33038 a 3.77953,3.77953 0 0 0 -7.55906,0 3.77953,3.77953 0 0 0 7.55906,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path140" />
+    </symbol>
+    <symbol
+       id="VALVE_HP_3WAY">
+      <path
+         d="m 502.43386,944.78104 -9.8195,-5.66929 v 11.33858 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path141" />
+      <path
+         d="m 496.76457,934.96154 5.66929,9.8195 5.66929,-9.8195 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path142" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 502.434,944.781 5.669,-9.819"
+         id="path143" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 508.103,934.962 H 496.765"
+         id="path144" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 496.765,934.962 5.669,9.819"
+         id="path145" />
+      <path
+         d="m 496.76457,954.60054 h 11.33858 l -5.66929,-9.8195 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path146" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 502.434,944.781 5.669,9.82"
+         id="path147" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 508.103,954.601 H 496.765"
+         id="path148" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 496.765,954.601 5.669,-9.82"
+         id="path149" />
+    </symbol>
+    <symbol
+       id="VALVE_UFH_FF_BATH">
+      <path
+         d="m 1054.9829,198.54418 9.8195,5.66929 v -11.33858 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path150" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,198.544 9.82,5.669"
+         id="path151" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1064.8,204.213 V 192.875"
+         id="path152" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1064.8,192.875 -9.82,5.669"
+         id="path153" />
+      <path
+         d="m 1045.1634,192.87489 v 11.33858 l 9.8195,-5.66929 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path154" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,198.544 -9.82,5.669"
+         id="path155" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1045.16,204.213 V 192.875"
+         id="path156" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1045.16,192.875 9.82,5.669"
+         id="path157" />
+    </symbol>
+    <symbol
+       id="VALVE_UFH_FF_BEDROOM">
+      <path
+         d="m 1054.9829,160.74891 9.8195,5.66929 v -11.33858 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path158" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,160.749 9.82,5.669"
+         id="path159" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1064.8,166.418 V 155.08"
+         id="path160" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1064.8,155.08 -9.82,5.669"
+         id="path161" />
+      <path
+         d="m 1045.1634,155.07962 v 11.33858 l 9.8195,-5.66929 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path162" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,160.749 -9.82,5.669"
+         id="path163" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1045.16,166.418 V 155.08"
+         id="path164" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1045.16,155.08 9.82,5.669"
+         id="path165" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1002.47,198.544 V 160.749"
+         id="path166" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1002.47,160.749 h 52.51"
+         id="path167" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,160.749 h 37.8"
+         id="path168" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc);stroke-dasharray:24, 12"
+         d="m 1092.78,160.749 h 37.79"
+         id="path169" />
+    </symbol>
+    <symbol
+       id="VALVE_UFH_FF_JULIA">
+      <path
+         d="m 1054.9829,122.95363 9.8195,5.66929 v -11.33858 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path170" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,122.954 9.82,5.669"
+         id="path171" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1064.8,128.623 V 117.284"
+         id="path172" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1064.8,117.284 -9.82,5.67"
+         id="path173" />
+      <path
+         d="m 1045.1634,117.28434 v 11.33858 l 9.8195,-5.66929 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path174" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,122.954 -9.82,5.669"
+         id="path175" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1045.16,128.623 V 117.284"
+         id="path176" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1045.16,117.284 9.82,5.67"
+         id="path177" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1002.47,198.544 V 160.749"
+         id="path178" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1002.47,160.749 V 122.954"
+         id="path179" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1002.47,122.954 h 52.51"
+         id="path180" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,122.954 h 37.8"
+         id="path181" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc);stroke-dasharray:24, 12"
+         d="m 1092.78,122.954 h 37.79"
+         id="path182" />
+    </symbol>
+    <symbol
+       id="VALVE_UFH_FF_PIOTR">
+      <path
+         d="m 1054.9829,85.158356 9.8195,5.669291 V 79.489065 Z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path183" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,85.1584 9.82,5.6692"
+         id="path184" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1064.8,90.8276 V 79.4891"
+         id="path185" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1064.8,79.4891 -9.82,5.6693"
+         id="path186" />
+      <path
+         d="m 1045.1634,79.489065 v 11.338582 l 9.8195,-5.669291 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path187" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,85.1584 -9.82,5.6692"
+         id="path188" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1045.16,90.8276 V 79.4891"
+         id="path189" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1045.16,79.4891 9.82,5.6693"
+         id="path190" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1002.47,198.544 V 160.749"
+         id="path191" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1002.47,160.749 V 122.954"
+         id="path192" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1002.47,122.954 V 85.1584"
+         id="path193" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1002.47,85.1584 h 52.51"
+         id="path194" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1054.98,85.1584 h 37.8"
+         id="path195" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc);stroke-dasharray:24, 12"
+         d="m 1092.78,85.1584 h 37.79"
+         id="path196" />
+    </symbol>
+    <symbol
+       id="PUMP_DHW_CIRC">
+      <path
+         d="m 692.51995,744.04472 a 15.11811,15.11811 0 0 0 -30.23622,0 15.11811,15.11811 0 0 0 30.23622,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path197" />
+      <path
+         d="m 677.40184,728.92661 -13.09267,22.67717 h 26.18534 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path198" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 677.402,728.927 13.093,22.677"
+         id="path199" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 690.495,751.604 H 664.309"
+         id="path200" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 664.309,751.604 13.093,-22.677"
+         id="path201" />
+    </symbol>
+    <symbol
+       id="PUMP_HRV">
+      <path
+         d="m 1067.9292,687.43271 a 15.118111,15.118111 0 0 0 -30.2362,0 15.118111,15.118111 0 0 0 30.2362,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path202" />
+      <path
+         d="m 1052.8111,672.3146 -13.0926,22.67716 h 26.1853 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path203" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1052.81,672.315 13.09,22.677"
+         id="path204" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1065.9,694.992 h -26.18"
+         id="path205" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1039.72,694.992 13.09,-22.677"
+         id="path206" />
+    </symbol>
+    <symbol
+       id="PUMP_UFH_FF">
+      <path
+         d="m 1017.5853,687.43271 a 15.11811,15.11811 0 0 0 -30.23621,0 15.11811,15.11811 0 0 0 30.23621,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path207" />
+      <path
+         d="m 1002.4672,672.3146 -13.09267,22.67716 h 26.18537 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path208" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1002.47,672.315 13.09,22.677"
+         id="path209" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1015.56,694.992 H 989.375"
+         id="path210" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 989.375,694.992 13.095,-22.677"
+         id="path211" />
+    </symbol>
+    <symbol
+       id="PUMP_UFH_GF">
+      <path
+         d="m 1108.4911,778.48183 a 15.11811,15.11811 0 0 0 -30.2362,0 15.11811,15.11811 0 0 0 30.2362,0 z"
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         id="path212" />
+      <path
+         d="m 1108.4911,778.48183 -22.6771,-13.09267 v 26.18533 z"
+         style="fill:var(--scada-fill,#cfd8dc)"
+         id="path213" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1108.49,778.482 -22.68,13.092"
+         id="path214" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="M 1085.81,791.574 V 765.389"
+         id="path215" />
+      <path
+         style="fill:none;stroke:var(--scada-line,#cfd8dc)"
+         d="m 1085.81,765.389 22.68,13.093"
+         id="path216" />
+    </symbol>
+  
+  </defs>
+  <style id="single-element-style"><![CDATA[
+    svg { background: var(--scada-bg, transparent); }
+    g.element { display: inline; }
+  ]]></style>
+<g
+     inkscape:groupmode="layer"
+     inkscape:label="VALVE_HP_3WAY"
+     id="layer_valve_hp_3way"
+     class="element"
+     transform="translate(0.25,-79.272591)"
+     style="display:inline">
+    <use
+       xlink:href="#VALVE_HP_3WAY"
+       style="display:inline;stroke-width:2;stroke-dasharray:none"
+       id="use225" />
+  </g>
+</svg>
