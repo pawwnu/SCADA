@@ -1,0 +1,97 @@
+title: SCADA Heating
+views:
+  - title: Instalacja CO/CWU
+    path: scada-heating
+    type: panel
+    cards:
+      - type: custom:floorplan-card
+        full_height: true
+        config:
+          image: /local/scada/heating_scada3I.svg
+          stylesheet: /local/scada/heating_scada3I.css
+          defaults:
+            hover_action: hover-info
+            tap_action: more-info
+          rules:
+            # ======= Devices / Pumps / Valves =======
+            # Podmień encje poniżej na własne encje HA.
+            - entity: binary_sensor.hp_running
+              element: layer_device_hp
+              state_action:
+                service: floorplan.class_set
+                service_data: active
+            - entity: binary_sensor.boiler_running
+              element: layer_device_boiler
+              state_action:
+                service: floorplan.class_set
+                service_data: active
+            - entity: binary_sensor.pump_dhw_circ_running
+              element: layer_pump_dhw_circ
+              state_action:
+                service: floorplan.class_set
+                service_data: active
+            - entity: binary_sensor.pump_ufh_gf_running
+              element: layer_pump_ufh_gf
+              state_action:
+                service: floorplan.class_set
+                service_data: active
+            - entity: binary_sensor.pump_ufh_ff_running
+              element: layer_pump_ufh_ff
+              state_action:
+                service: floorplan.class_set
+                service_data: active
+            - entity: binary_sensor.pump_hrv_running
+              element: layer_pump_hrv
+              state_action:
+                service: floorplan.class_set
+                service_data: active
+            - entity: binary_sensor.valve_hp_3way_open
+              element: layer_valve_hp_3way
+              state_action:
+                service: floorplan.class_set
+                service_data: active
+
+            # ======= Pipe flow highlights =======
+            - entity: binary_sensor.flow_hp_co
+              elements:
+                - layer_pipe_hp_co_supply
+                - layer_pipe_hp_co_return
+              state_action:
+                service: floorplan.class_set
+                service_data: flow-on
+
+            - entity: binary_sensor.flow_hp_dhw
+              elements:
+                - layer_pipe_hp_dhw_supply
+                - layer_pipe_hp_dhw_return
+              state_action:
+                service: floorplan.class_set
+                service_data: flow-on
+
+            - entity: binary_sensor.flow_boiler_co
+              elements:
+                - layer_pipe_boiler_co_supply
+                - layer_pipe_boiler_co_return
+              state_action:
+                service: floorplan.class_set
+                service_data: flow-on
+
+            - entity: binary_sensor.flow_boiler_dhw
+              elements:
+                - layer_pipe_boiler_dhw_supply
+                - layer_pipe_boiler_dhw_return
+              state_action:
+                service: floorplan.class_set
+                service_data: flow-on
+
+            # ======= Status markers =======
+            - entity: binary_sensor.hp_running
+              element: layer_status_hp_active
+              state_action:
+                service: floorplan.class_set
+                service_data: active
+            - entity: binary_sensor.boiler_running
+              element: layer_status_boiler_active
+              state_action:
+                service: floorplan.class_set
+                service_data: active
