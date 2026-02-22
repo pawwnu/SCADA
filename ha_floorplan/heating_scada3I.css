@@ -1,0 +1,86 @@
+/*
+  CSS for ExperienceLovelace/ha-floorplan
+  SVG: /local/scada/heating_scada3I.svg
+*/
+
+:root {
+  --scada-off: #8ea0ad;
+  --scada-on: #36d399;
+  --scada-supply: #ff5f56;
+  --scada-return: #4ea1ff;
+  --scada-alert: #f59e0b;
+  --scada-hidden: 0;
+  --scada-visible: 1;
+}
+
+/* Default style */
+#layer_static_bg,
+[id^="layer_device_"],
+[id^="layer_pump_"],
+[id^="layer_valve_"],
+[id^="layer_status_"] {
+  opacity: var(--scada-visible);
+}
+
+[id^="layer_pipe_"] path,
+[id^="layer_pipe_"] polyline,
+[id^="layer_pipe_"] line {
+  stroke-width: 5 !important;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Pipe base colors */
+[id$="_supply"] path,
+[id$="_supply"] polyline,
+[id$="_supply"] line {
+  stroke: var(--scada-supply) !important;
+}
+
+[id$="_return"] path,
+[id$="_return"] polyline,
+[id$="_return"] line {
+  stroke: var(--scada-return) !important;
+}
+
+/* Devices off by default */
+[id^="layer_device_"] path,
+[id^="layer_device_"] rect,
+[id^="layer_device_"] circle,
+[id^="layer_pump_"] path,
+[id^="layer_pump_"] rect,
+[id^="layer_pump_"] circle,
+[id^="layer_valve_"] path,
+[id^="layer_valve_"] rect,
+[id^="layer_valve_"] circle {
+  stroke: var(--scada-off) !important;
+  fill: transparent !important;
+}
+
+/* Entity-driven classes from YAML rules */
+.active path,
+.active polyline,
+.active line,
+.active rect,
+.active circle {
+  stroke: var(--scada-on) !important;
+  fill: color-mix(in srgb, var(--scada-on) 15%, transparent) !important;
+}
+
+.flow-on path,
+.flow-on polyline,
+.flow-on line {
+  filter: drop-shadow(0 0 3px color-mix(in srgb, var(--scada-on) 70%, transparent));
+}
+
+.alarm path,
+.alarm polyline,
+.alarm line,
+.alarm rect,
+.alarm circle {
+  stroke: var(--scada-alert) !important;
+}
+
+.hidden {
+  opacity: var(--scada-hidden) !important;
+}
