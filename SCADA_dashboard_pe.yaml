@@ -12,611 +12,591 @@ sections:
       - type: picture-elements
         image: /local/co_cwu/heating_scada3I_codex.svg
         elements:
+          - type: conditional
+            conditions:
+              - entity: switch.pompa_co_gf
+                state: "on"
+            elements:
+              - type: image
+                image: /local/co_cwu/layer_pipe_ufh_gf_return.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+              - type: image
+                image: /local/co_cwu/layer_pipe_ufh_gf_supply.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+              - type: image
+                image: /local/co_cwu/layer_pump_ufh_gf.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+          - type: conditional
+            conditions:
+              - entity: switch.pompa_co_1f
+                state: "on"
+            elements:
+              - type: image
+                image: /local/co_cwu/layer_pipe_ufh_ff_supply.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+              - type: image
+                image: /local/co_cwu/layer_pipe_ufh_ff_return.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+              - type: image
+                image: /local/co_cwu/layer_pump_ufh_ff.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+          - type: conditional
+            conditions:
+              - entity: switch.pompa_rekuperator
+                state: "on"
+            elements:
+              - type: image
+                image: /local/co_cwu/layer_pump_hrv.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+              - type: image
+                image: /local/co_cwu/layer_pipe_hrv_supply.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+              - type: image
+                image: /local/co_cwu/layer_pipe_hrv_return.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+          - type: conditional
+            conditions:
+              - entity: switch.silownik_co_lazienka
+                state: "on"
+            elements:
+              - type: image
+                image: /local/co_cwu/layer_valve_ufh_ff_bath.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+          - type: conditional
+            conditions:
+              - entity: switch.silownik_co_p_julki
+                state: "on"
+            elements:
+              - type: image
+                image: /local/co_cwu/layer_valve_ufh_ff_julia.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+          - type: conditional
+            conditions:
+              - entity: switch.silownik_co_p_piotra
+                state: "on"
+            elements:
+              - type: image
+                image: /local/co_cwu/layer_valve_ufh_ff_piotr.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+          - type: conditional
+            conditions:
+              - entity: switch.silownik_co_sypilnia
+                state: "on"
+            elements:
+              - type: image
+                image: /local/co_cwu/layer_valve_ufh_ff_bedroom.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+          - type: conditional
+            conditions:
+              - entity: binary_sensor.boiler_dhw_charging
+                state: "on"
+            elements:
+              - type: image
+                image: /local/co_cwu/layer_pipe_boiler_dhw_return.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
+              - type: image
+                image: /local/co_cwu/layer_pipe_boiler_dhw_supply.svg
+                style:
+                  left: 50%
+                  top: 50%
+                  width: 100%
+                  transform: translate(-50%, -50%)
           - type: state-label
             entity: climate.panasonic_heat_pump_main_z1_temp
             prefix: "Z1: "
             style:
               left: 0%
               top: 40%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: select.panasonic_heat_pump_main_operating_mode_state
             prefix: "Mode: "
             style:
               left: 10%
               top: 12%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: number.panasonic_heat_pump_main_dhw_target_temp
             prefix: "DHW tgt: "
-            suffix: °C
             style:
               left: 10%
               top: 14%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.aquarea_energy_production
             prefix: "Prod: "
-            suffix: " kWh"
             style:
               left: 10%
               top: 16%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.aquarea_energy_consumption
             prefix: "Cons: "
-            suffix: " kWh"
             style:
               left: 10%
               top: 18%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.aquarea_cop
             prefix: "COP: "
             style:
               left: 5%
               top: 60%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_compressor_current
             prefix: "Comp I: "
-            suffix: " A"
             style:
               left: 10%
               top: 22%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_compressor_freq
             prefix: "Comp Hz: "
-            suffix: " Hz"
             style:
               left: 10%
               top: 24%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_fan1_motor_speed
             prefix: "Fan: "
-            suffix: " rpm"
             style:
               left: 10%
               top: 26%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: binary_sensor.panasonic_heat_pump_main_internal_heater_state
             prefix: "Heater: "
             style:
               left: 10%
               top: 28%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_pump_flow
             prefix: "Flow: "
-            suffix: " l/min"
             style:
               left: 10%
               top: 30%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_pump_speed
             prefix: "Pump: "
-            suffix: " %"
             style:
               left: 10%
               top: 32%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_main_target_temp
             prefix: "Main tgt: "
-            suffix: °C
             style:
               left: 10%
               top: 34%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_operations_hours
             prefix: "Hours: "
-            suffix: " h"
             style:
               left: 10%
               top: 36%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_operations_counter
             prefix: "Starts: "
             style:
               left: 10%
               top: 38%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_main_inlet_temp
             prefix: "Inlet: "
-            suffix: °C
             style:
               left: 22%
               top: 10%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_main_main_outlet_temp
             prefix: "Outlet: "
-            suffix: °C
             style:
               left: 22%
               top: 12%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.scada_hp_dt
             prefix: "ΔT HP: "
-            suffix: °C
             style:
               left: 22%
               top: 14%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.boiler_dhw_current_extern_temperature
             prefix: "CWU: "
-            suffix: °C
             style:
               left: 36%
               top: 75%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: input_number.cwu_setpoint_master
             prefix: "CWU SP: "
-            suffix: °C
             style:
               left: 34%
               top: 12%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.scada_cwu_dt
             prefix: "ΔT CWU: "
-            suffix: °C
             style:
               left: 34%
               top: 14%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_1wire_285b0781e3fa3c8f
             prefix: "Buf top: "
-            suffix: °C
             style:
               left: 46%
               top: 10%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_1wire_2892fa81e30d3c3b
             prefix: "Buf bot: "
-            suffix: °C
             style:
               left: 46%
               top: 12%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_1wire_28308948f6993c07
             prefix: "GF sup: "
             style:
               left: 80%
               top: 72%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_1wire_284e5d81e38c3c
             prefix: "GF ret: "
             style:
               left: 80%
               top: 74%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.scada_ufh_gf_dt
             prefix: "ΔT GF: "
             style:
               left: 80%
               top: 76%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_1wire_2828ef81e3c03c60
             prefix: "FF sup: "
-            suffix: °C
             style:
               left: 70%
               top: 10%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_1wire_2836c349f6a83c87
             prefix: "FF ret: "
-            suffix: °C
             style:
               left: 70%
               top: 12%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.scada_ufh_ff_dt
             prefix: "ΔT FF: "
-            suffix: °C
             style:
               left: 70%
               top: 14%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.panasonic_heat_pump_1wire_28703249f6313c5a
             prefix: "HRV water: "
-            suffix: °C
             style:
               left: 82%
               top: 10%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.esp8266_wanas_rs485_temp_zewn_trzna
             prefix: "Outdoor: "
-            suffix: °C
             style:
               left: 82%
               top: 12%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.esp8266_wanas_rs485_temp_wyrzutowa
             prefix: "Exhaust: "
-            suffix: °C
             style:
               left: 82%
               top: 14%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.esp8266_wanas_rs485_temp_za_wymiennikiem
             prefix: "After HEX: "
-            suffix: °C
             style:
               left: 82%
               top: 16%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.esp8266_wanas_rs485_temp_pomieszcz
             prefix: "Room: "
-            suffix: °C
             style:
               left: 82%
               top: 18%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.esp8266_wanas_rs485_wydatek_nawiewu
             prefix: "Supply: "
-            suffix: " m³/h"
             style:
               left: 82%
               top: 20%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.esp8266_wanas_rs485_wydatek_wywiewu
             prefix: "Extract: "
-            suffix: " m³/h"
             style:
               left: 82%
               top: 22%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.esp8266_wanas_rs485_stan_filtra
             prefix: "Filter: "
             style:
               left: 90%
               top: 54%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.scada_hrv_dt
             prefix: "ΔT HRV: "
-            suffix: °C
             style:
               left: 82%
               top: 26%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: switch.fancoil_enable
             prefix: "FC state: "
             style:
               left: 82%
               top: 32%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: input_number.fancoil_speed_pct
             prefix: "FC speed: "
-            suffix: " %"
             style:
               left: 82%
               top: 34%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.boiler_burner_current_power
             prefix: "Burner: "
-            suffix: " %"
             style:
               left: 34%
               top: 24%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: binary_sensor.boiler_dhw_charging
             prefix: "DHW charge: "
             style:
               left: 34%
               top: 26%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.boiler_heating_pump_modulation
             prefix: "Pump mod: "
-            suffix: " %"
             style:
               left: 34%
               top: 28%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
           - type: state-label
             entity: sensor.boiler_current_flow_temperature
             prefix: "Flow temp: "
-            suffix: °C
             style:
               left: 34%
               top: 30%
-              color: "#e8f0ff"
+              color: "#3a4655"
               font-size: 12px
               font-weight: 600
               transform: translate(-50%, -50%)
-              background: rgba(0, 0, 0, 0.28)
-              padding: 2px 5px
-              border-radius: 4px
         grid_options:
           columns: 36
           rows: auto
