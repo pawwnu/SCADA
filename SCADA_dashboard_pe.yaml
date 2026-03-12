@@ -164,8 +164,8 @@ sections:
             style:
               left: 5%
               top: 68.5%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -174,8 +174,8 @@ sections:
             style:
               left: 5%
               top: 66.4%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -184,8 +184,8 @@ sections:
             style:
               left: 5%
               top: 64.3%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -194,8 +194,8 @@ sections:
             style:
               left: 5%
               top: 62.2%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -204,8 +204,8 @@ sections:
             style:
               left: 5%
               top: 60.1%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -214,8 +214,8 @@ sections:
             style:
               left: 5%
               top: 58.0%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -224,8 +224,8 @@ sections:
             style:
               left: 5%
               top: 55.9%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -234,8 +234,8 @@ sections:
             style:
               left: 5%
               top: 53.8%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -244,8 +244,8 @@ sections:
             style:
               left: 16%
               top: 68.5%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -254,8 +254,8 @@ sections:
             style:
               left: 16%
               top: 66.4%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -264,8 +264,8 @@ sections:
             style:
               left: 16%
               top: 64.3%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -274,8 +274,8 @@ sections:
             style:
               left: 16%
               top: 62.2%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -284,8 +284,8 @@ sections:
             style:
               left: 16%
               top: 60.1%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -294,8 +294,8 @@ sections:
             style:
               left: 16%
               top: 58.0%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -304,8 +304,8 @@ sections:
             style:
               left: 16%
               top: 55.9%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -314,8 +314,8 @@ sections:
             style:
               left: 22%
               top: 10%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -324,8 +324,8 @@ sections:
             style:
               left: 22%
               top: 12%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -334,8 +334,8 @@ sections:
             style:
               left: 22%
               top: 14%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           # DHW
@@ -345,8 +345,8 @@ sections:
             style:
               left: 36.49%
               top: 74.75%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -355,8 +355,8 @@ sections:
             style:
               left: 36.49%
               top: 72.65%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -365,8 +365,8 @@ sections:
             style:
               left: 36.49%
               top: 70.55%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           # BUFFER CO
@@ -376,8 +376,8 @@ sections:
             style:
               left: 53.43%
               top: 67.08%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -386,8 +386,8 @@ sections:
             style:
               left: 53.43%
               top: 69.18%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           # UFH GROUND FLOOR
@@ -397,8 +397,8 @@ sections:
             style:
               left: 86.66%
               top: 71.87%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -407,8 +407,8 @@ sections:
             style:
               left: 86.66%
               top: 73.97%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -417,8 +417,8 @@ sections:
             style:
               left: 86.66%
               top: 76.07%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           # UFH FIRST FLOOR
@@ -428,8 +428,8 @@ sections:
             style:
               left: 86.66%
               top: 16.29%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -438,8 +438,8 @@ sections:
             style:
               left: 86.66%
               top: 18.39%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -448,8 +448,8 @@ sections:
             style:
               left: 86.66%
               top: 20.49%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           # HRV
@@ -459,8 +459,8 @@ sections:
             style:
               left: 78.19%
               top: 38.33%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -469,8 +469,8 @@ sections:
             style:
               left: 78.19%
               top: 40.43%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -479,8 +479,8 @@ sections:
             style:
               left: 78.19%
               top: 42.53%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -489,8 +489,8 @@ sections:
             style:
               left: 78.19%
               top: 44.63%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -499,8 +499,8 @@ sections:
             style:
               left: 78.19%
               top: 46.73%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -509,8 +509,8 @@ sections:
             style:
               left: 78.19%
               top: 48.83%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -519,8 +519,8 @@ sections:
             style:
               left: 78.19%
               top: 50.93%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -529,8 +529,8 @@ sections:
             style:
               left: 78.19%
               top: 53.03%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -539,8 +539,8 @@ sections:
             style:
               left: 78.19%
               top: 55.13%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -549,8 +549,8 @@ sections:
             style:
               left: 82%
               top: 32%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -559,8 +559,8 @@ sections:
             style:
               left: 82%
               top: 34%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           # OUTDOOR TEMPERATURE
@@ -570,8 +570,8 @@ sections:
             style:
               left: 14.99%
               top: 27.31%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           # GAS BOILER
@@ -581,8 +581,8 @@ sections:
             style:
               left: 33.88%
               top: 34.50%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -591,8 +591,8 @@ sections:
             style:
               left: 34%
               top: 26%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -601,8 +601,8 @@ sections:
             style:
               left: 33.88%
               top: 36.60%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
           - type: state-label
@@ -611,8 +611,8 @@ sections:
             style:
               left: 33.88%
               top: 38.70%
-              color: "#5f748c"
-              font-size: 12px
+              color: "#ffffff"
+              font-size: 13px
               font-weight: 600
               transform: translate(-50%, -50%)
         grid_options:
